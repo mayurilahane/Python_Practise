@@ -52,6 +52,7 @@ print(result1)
 result2 = [x - 1 for x in [x ** 2 for x in a]]
 print(result2)
 
+
 #tuple
 a = (123)
 print(type(a))
@@ -66,12 +67,13 @@ print(data)
 
 data.setdefault('names', []).append('Python')
 print(data)
+{'names': ['Ruby', 'python']}
 
 #use of enumerate(counter)
 l1 = ["eat", "sleep", "repeat"]
 l2 = "geek"
 
-obj1 = enumerate(l1) # creating enumerate objects
+obj1 = enumerate(l1) #creating enumerate objects
 obj2 = enumerate(l2) # creating enumerate objects
 
 print(list(enumerate(l1)))
