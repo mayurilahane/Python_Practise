@@ -22,7 +22,7 @@ print(f(2))
 print(f(3))
 
 #keyword arguments
-"""keyword arg will act like positional argument when 
+"""keyword arg will act like positional argument when
  you will give values it will take in sequence"""
 
 #higher order function - take function as ip and return function as output
@@ -32,4 +32,3 @@ def high(func, value):
 list = high(dir, datetime)
 print(list[-8::])
 print(list)
-

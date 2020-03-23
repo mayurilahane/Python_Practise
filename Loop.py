@@ -27,7 +27,7 @@ a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for x in a[::2]:
     print(x)
 
-#range in for
+#range with list function
 list1 = list(range(1, 5))
 print(list1)
 
