@@ -12,9 +12,10 @@ except: #only except can handle any type or exception
 #finally:
 """we can use finally block to execute those statments which needs to execute 
 at any condition"""
-finally:
+
+"""finally:
 print("every file needs to close")
-fobj.close()
+fobj.close()"""
 
 #only this will give name error to handle this:
 try:
@@ -24,3 +25,12 @@ except Exception as e: #you can specify proper name of exception
     print("no value defined")
     print(e)
     print(e)
+
+#user defined exceptions:
+class Networkerror(RuntimeError):
+   def __init__(self, arg):
+      self.args = arg
+try:
+   raise Networkerror("Bad hostname")
+except Networkerror as e:
+   print(e.args)
