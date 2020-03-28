@@ -61,3 +61,31 @@ def age():
     print(x+1)
 age()
 print(x)
+
+#new operators:
+"""Division(/)
+Divides the value on the left by the one on the right. Notice that division results in a floating-point value.
+>>> 3/4
+Output: 0.75
+
+Exponentiation(**)
+Raises the first number to the power of the second.
+>>> 3**4
+Output: 81
+
+Floor Division(//)
+Divides and returns the integer value of the quotient. It dumps the digits after the decimal.
+>>> 4//3
+Output: 1
+>>> 10//3
+Output: 3
+
+Modulus(%)
+Divides and returns the value of the remainder.
+>>> 3%4
+Output: 3
+>>> 4%3
+Output: 1
+>>>10.5%3
+Output: 1.5 """"
+
